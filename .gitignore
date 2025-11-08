@@ -1,0 +1,58 @@
+# OS/Editor Artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.zed/
+
+# Node.js/JS/TS
+node_modules/
+**/node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.log
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# React
+react_frontend/build/
+react_frontend/.cache/
+react_frontend/dist/
+
+# Express
+server/dist/
+server/build/
+
+# Docker
+.docker/
+**/Dockerfile.dev
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Redis
+dump.rdb
+appendonly.aof
+nodes.conf
+redis.conf.bak
+
+# Misc
+.idea/
+*.iml
+tmp/
+temp/
+logs/
