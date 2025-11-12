@@ -56,3 +56,4 @@ redis.conf.bak
 tmp/
 temp/
 logs/
+.env*
